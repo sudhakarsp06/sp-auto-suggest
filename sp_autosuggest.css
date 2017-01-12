@@ -1,0 +1,21 @@
+.sp_list_wrapper ul {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    transition: height 1s;
+    -webkit-transition: height 1s;
+    min-height: 80px;
+}
+.sp_list_wrapper ul li {
+	list-style-type: none;
+	padding: 2px;
+	text-align: left;
+
+}
+.sp_list_wrapper ul li:hover {
+	background: #ccc;
+	cursor: pointer;
+}
